@@ -1,0 +1,21 @@
+[project]
+name = "xai-swarm"
+version = "0.1.0"
+description = "A Xircuits component library for Swarm"
+authors = [{ name = "XpressAI", email = "eduardo@xpress.ai" }]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/XpressAI/xai-swarm"
+keywords = ["xircuits", "swarm", "agent", "AI"]
+
+dependencies = [
+    "git+https://github.com/openai/swarm.git",
+    "python-dotenv",
+    "openpyxl",
+
+]
+
+# Xircuits-specific configurations
+[tool.xircuits]
+default_example_path = "examples/SwarmBasicAgent.xircuits"
+requirements_path = "requirements.txt"
