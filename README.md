@@ -36,6 +36,7 @@ Before you begin, you will need the following:
 
 1. Python 3.9+.
 2. Xircuits.
+3. OpenAI API Key and DeepL API Key set in a `.env` file.
 
 ## Main Xircuits Components
 
